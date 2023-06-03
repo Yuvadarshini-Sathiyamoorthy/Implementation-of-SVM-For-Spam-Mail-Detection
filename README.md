@@ -52,7 +52,6 @@ x_test=cv.transform(x_test)
 from sklearn.svm import SVC
 svc=SVC()
 svc.fit(x_train,y_train)
-
 y_pred=svc.predict(x_test)
 y_pred
 
@@ -65,11 +64,22 @@ accuracy
 
 ## Output:
 ## Result output
+![91](https://github.com/Yuvadarshini-Sathiyamoorthy/Implementation-of-SVM-For-Spam-Mail-Detection/assets/93482485/8c2a20bf-1ff1-46fc-adfa-a92e9e686e9e)
+
 ## data.head()
+![92](https://github.com/Yuvadarshini-Sathiyamoorthy/Implementation-of-SVM-For-Spam-Mail-Detection/assets/93482485/4868350d-bba7-40e3-84ab-a5fac70ef1d9)
+
 ## data.info()
+![93](https://github.com/Yuvadarshini-Sathiyamoorthy/Implementation-of-SVM-For-Spam-Mail-Detection/assets/93482485/cc1fe2a7-11d0-49e4-9a92-b2d520c8ebe3)
+
 ## data.isnull().sum()
+![94](https://github.com/Yuvadarshini-Sathiyamoorthy/Implementation-of-SVM-For-Spam-Mail-Detection/assets/93482485/581f80ef-e39a-4445-b3d3-03aba26fbdae)
+
 ## Y_prediction value
+![95](https://github.com/Yuvadarshini-Sathiyamoorthy/Implementation-of-SVM-For-Spam-Mail-Detection/assets/93482485/40a0a3b6-b0b2-4a90-8ddb-ec7683f387c6)
+
 ## Accuracy value
+![96](https://github.com/Yuvadarshini-Sathiyamoorthy/Implementation-of-SVM-For-Spam-Mail-Detection/assets/93482485/dce8e7c5-8b01-4ee6-b16d-baf124139b70)
 
 
 ## Result:
